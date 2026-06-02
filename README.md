@@ -1,15 +1,15 @@
 # Hi there, I'm Mayan! 👋
 
-### 🚀 About Me
-- 🎓 Software Development Apprentice at **Zone01 Kisumu** (Cohort 2)
-- 💻 Currently sharpening my skills in **Go, JavaScript, and Rust**
-- 👥 Passionate about peer-to-peer technical learning and collaborative problem-solving
+###  About Me
+-  Software Development Apprentice at **Zone01 Kisumu** (Cohort 2)
+-  Currently sharpening my skills in **Go, JavaScript, and Rust**
+-  Passionate about peer-to-peer technical learning and collaborative problem-solving
 
-### 🛠️ My Tech Stack
+###  My Tech Stack
 - **Languages:** Go, JavaScript (ES6+), Rust
 - **Tools & Tech:** Git, GitHub, Linux/Unix environments
 
-### 📈 Zone01 Journey Tracker
+###  Zone01 Journey Tracker
 - [ ] 01-Foundations (In Progress)
 - [ ] Branch Specialization (Future)
 
