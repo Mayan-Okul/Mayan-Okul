@@ -1,8 +1,8 @@
 <div align="center">
 
-# MAYAN.SYS
+# MAYAN
 
-**Frontend dev & designer building neon interfaces with real local impact** 🌸👾
+**Frontend dev & designer building dope interfaces with real local impact** 🌸👾
 
 ![Location](https://img.shields.io/badge/LOC-Kisumu,_Kenya-ff4a8e?style=for-the-badge&labelColor=16111a)
 ![Status](https://img.shields.io/badge/STATUS-compiling_reality-cebdff?style=for-the-badge&labelColor=16111a)
@@ -15,7 +15,7 @@
 const mayan = new CyberEntity({
   role: "Frontend Developer & Designer",
   school: ["Zone01 Kisumu", "KCA University"],
-  coreVibe: ["Neon UI", "React", "Design systems"],
+  coreVibe: ["Interactive UI", "React", "Design systems"],
   hardwareSync: true,
 });
 
