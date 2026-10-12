@@ -1,43 +1,99 @@
 <div align="center">
 
-# MAYAN
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:ff4a8e,100:8b5cf6&text=MAYAN&fontColor=ffffff&fontSize=64&fontAlignY=40&desc=Frontend%20Dev%20%26%20Designer%20%7C%20Kisumu%2C%20Kenya&descAlignY=62&animation=twinkling" width="100%" alt="banner"/>
 
-**Frontend dev & designer building dope interfaces with real local impact** 🌸👾
+<a href="https://github.com/Mayan-Okul">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=FF4A8E&center=true&vCenter=true&width=640&lines=Hey+fam!+I'm+Mayan+%F0%9F%8C%B8;Zone01+Kisumu+apprentice;I+build+neon+interfaces+%F0%9F%91%BE;Real+software+for+real+local+impact" alt="typing"/>
+</a>
 
-![Location](https://img.shields.io/badge/LOC-Kisumu,_Kenya-ff4a8e?style=for-the-badge&labelColor=16111a)
-![Status](https://img.shields.io/badge/STATUS-compiling_reality-cebdff?style=for-the-badge&labelColor=16111a)
+<img src="https://komarev.com/ghpvc/?username=Mayan-Okul&color=ff4a8e&style=for-the-badge&label=VISITORS" alt="visitors"/>
 
 </div>
 
-## > mayan --status
+## 🌸 About
+
+Frontend dev and designer, still finding my footing, building software with real impact for Kenyan and East African communities.
+
+<details>
+<summary><b>👾 Click to open my status</b></summary>
 
 ```js
 const mayan = new CyberEntity({
   role: "Frontend Developer & Designer",
   school: ["Zone01 Kisumu", "KCA University"],
-  coreVibe: ["Interactive UI", "React", "Design systems"],
+  coreVibe: ["Neon UI", "React", "Design systems"],
   hardwareSync: true,
 });
 
 mayan.compile();
 ```
 
-## Cyber Tech Stack
+</details>
 
-![React](https://img.shields.io/badge/React-ff4a8e?style=for-the-badge&logo=react&logoColor=white&labelColor=16111a)
-![Vite](https://img.shields.io/badge/Vite-cebdff?style=for-the-badge&logo=vite&logoColor=white&labelColor=16111a)
-![JavaScript](https://img.shields.io/badge/JavaScript-ffb1c5?style=for-the-badge&logo=javascript&logoColor=white&labelColor=16111a)
-![Go](https://img.shields.io/badge/Go-ffb2b7?style=for-the-badge&logo=go&logoColor=white&labelColor=16111a)
-![SQLite](https://img.shields.io/badge/SQLite-bea8ff?style=for-the-badge&logo=sqlite&logoColor=white&labelColor=16111a)
+<details>
+<summary><b>🚀 Click to see what I'm building</b></summary>
 
-## Activity Matrix
+- **Mali**: AI-powered business OS for African SMEs ([live](https://mali-mnyapola.netlify.app))
+- **Tembo**: water quality reporting platform for Lake Victoria
+- **Forum**: Go + SQLite web forum (team project)
+
+</details>
+
+## 💻 Tech Stack
 
 <div align="center">
 
-![Stats](https://github-readme-stats.vercel.app/api?username=Mayan-Okul&show_icons=true&theme=dark&bg_color=16111a&title_color=ff4a8e&icon_color=cebdff&text_color=eadfec&border_color=39323d)
+![React](https://img.shields.io/badge/React-ff4a8e?style=for-the-badge&logo=react&logoColor=white&labelColor=16111a)
+![Vite](https://img.shields.io/badge/Vite-a855f7?style=for-the-badge&logo=vite&logoColor=white&labelColor=16111a)
+![JavaScript](https://img.shields.io/badge/JavaScript-ff7eb6?style=for-the-badge&logo=javascript&logoColor=white&labelColor=16111a)
+![Go](https://img.shields.io/badge/Go-c084fc?style=for-the-badge&logo=go&logoColor=white&labelColor=16111a)
+![SQLite](https://img.shields.io/badge/SQLite-ff4a8e?style=for-the-badge&logo=sqlite&logoColor=white&labelColor=16111a)
+![HTML5](https://img.shields.io/badge/HTML5-a855f7?style=for-the-badge&logo=html5&logoColor=white&labelColor=16111a)
+![CSS3](https://img.shields.io/badge/CSS3-ff7eb6?style=for-the-badge&logo=css3&logoColor=white&labelColor=16111a)
 
 </div>
 
-## Connect
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Mayan-Okul&show_icons=true&hide_border=true&bg_color=16111a&title_color=ff4a8e&icon_color=a855f7&text_color=eadfec" alt="stats"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mayan-Okul&layout=compact&hide_border=true&bg_color=16111a&title_color=ff4a8e&text_color=eadfec" alt="languages"/>
+
+<img src="https://streak-stats.demolab.com?user=Mayan-Okul&hide_border=true&background=16111a&ring=ff4a8e&fire=a855f7&currStreakLabel=ff4a8e&sideLabels=c084fc&currStreakNum=eadfec&sideNums=eadfec&dates=a99bb5" alt="streak"/>
+
+</div>
+
+## 🕹️ Contribution Game
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mayan-Okul/Mayan-Okul/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mayan-Okul/Mayan-Okul/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Mayan-Okul/Mayan-Okul/output/pacman-contribution-graph-dark.svg">
+</picture>
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Mayan-Okul&theme=radical&no-frame=true&no-bg=true&margin-w=8&column=7" alt="trophies"/>
+
+</div>
+
+## ✍️ Random Dev Quote
+
+<div align="center">
+
+<img src="https://github-readme-quotes.vercel.app/quote?type=horizontal&theme=radical" alt="quote"/>
+
+</div>
+
+## 🌐 Connect
+
+<div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-ff4a8e?style=for-the-badge&logo=netlify&logoColor=white&labelColor=16111a)](https://mali-mnyapola.netlify.app)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:8b5cf6,100:ff4a8e&section=footer" width="100%" alt="footer"/>
+
+</div>
