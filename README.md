@@ -71,7 +71,7 @@ mayan.compile();
 
 ## ✍️ Dev Quote
 
-> *"Cute enough to distract you, skilled enough to crash your server."*
+> *"The function of good software is to make the complex appear to be simple."*
 
 ## 🌐 Connect
 
