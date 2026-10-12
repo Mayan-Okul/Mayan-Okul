@@ -62,7 +62,6 @@ mayan.compile();
 
 </div>
 
-## 🕹️ Contribution Game
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mayan-Okul/Mayan-Okul/output/pacman-contribution-graph-dark.svg">
