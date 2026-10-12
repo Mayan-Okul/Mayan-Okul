@@ -1,12 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:ff4a8e,100:8b5cf6&text=MAYAN&fontColor=ffffff&fontSize=64&fontAlignY=40&desc=Frontend%20Dev%20%26%20Designer%20%7C%20Kisumu%2C%20Kenya&descAlignY=62&animation=twinkling" width="100%" alt="banner"/>
+<img src="banner.svg" width="100%" alt="banner"/>
 
 <a href="https://github.com/Mayan-Okul">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=FF4A8E&center=true&vCenter=true&width=640&lines=Hey+fam!+I'm+Mayan+%F0%9F%8C%B8;Zone01+Kisumu+apprentice;I+build+neon+interfaces+%F0%9F%91%BE;Real+software+for+real+local+impact" alt="typing"/>
 </a>
-
-<img src="https://komarev.com/ghpvc/?username=Mayan-Okul&color=ff4a8e&style=for-the-badge&label=VISITORS" alt="visitors"/>
 
 </div>
 
@@ -21,7 +19,7 @@ Frontend dev and designer, still finding my footing, building software with real
 const mayan = new CyberEntity({
   role: "Frontend Developer & Designer",
   school: ["Zone01 Kisumu", "KCA University"],
-  coreVibe: ["Neon UI", "React", "Design systems"],
+  coreVibe: ["Dope UI", "React", "Design systems"],
   hardwareSync: true,
 });
 
@@ -72,21 +70,9 @@ mayan.compile();
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Mayan-Okul/Mayan-Okul/output/pacman-contribution-graph-dark.svg">
 </picture>
 
-## 🏆 GitHub Trophies
+## ✍️ Dev Quote
 
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Mayan-Okul&theme=radical&no-frame=true&no-bg=true&margin-w=8&column=7" alt="trophies"/>
-
-</div>
-
-## ✍️ Random Dev Quote
-
-<div align="center">
-
-<img src="https://github-readme-quotes.vercel.app/quote?type=horizontal&theme=radical" alt="quote"/>
-
-</div>
+> *"Cute enough to distract you, skilled enough to crash your server."*
 
 ## 🌐 Connect
 
@@ -94,6 +80,6 @@ mayan.compile();
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-ff4a8e?style=for-the-badge&logo=netlify&logoColor=white&labelColor=16111a)](https://mali-mnyapola.netlify.app)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:8b5cf6,100:ff4a8e&section=footer" width="100%" alt="footer"/>
+<img src="footer.svg" width="100%" alt="footer"/>
 
 </div>
