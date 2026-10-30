@@ -1,19 +1,180 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="100%" height="100%">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ff4a8e"/>
-      <stop offset="1" stop-color="#8b5cf6"/>
+    <linearGradient id="cyberBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08020e"/>
+      <stop offset="50%" stop-color="#140624"/>
+      <stop offset="100%" stop-color="#07010c"/>
     </linearGradient>
+    <linearGradient id="neonPinkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF007F"/>
+      <stop offset="40%" stop-color="#FF3399"/>
+      <stop offset="70%" stop-color="#C084FC"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="purpleCodeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C084FC" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#A855F7" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#6B21A8" stop-opacity="0.1"/>
+    </linearGradient>
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="purpleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <pattern id="dotGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#A855F7" opacity="0.15"/>
+    </pattern>
   </defs>
-  <rect width="1200" height="220" fill="url(#g)"/>
-  <path d="M0 150 Q150 120 300 150 T600 150 T900 150 T1200 150 T1500 150 T1800 150 V220 H0Z" fill="#fff" fill-opacity="0.12">
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="8s" repeatCount="indefinite"/>
-  </path>
-  <path d="M0 170 Q150 140 300 170 T600 170 T900 170 T1200 170 T1500 170 T1800 170 V220 H0Z" fill="#16111a" fill-opacity="0.25">
-    <animateTransform attributeName="transform" type="translate" from="-600 0" to="0 0" dur="10s" repeatCount="indefinite"/>
-  </path>
-  <text x="600" y="100" text-anchor="middle" font-family="monospace" font-size="64" font-weight="700" fill="#fff">MAYAN
-    <animate attributeName="opacity" values="1;0.75;1" dur="3s" repeatCount="indefinite"/>
+
+  <!-- Background Base -->
+  <rect width="900" height="260" rx="12" fill="url(#cyberBg)"/>
+  <rect width="900" height="260" rx="12" fill="url(#dotGrid)"/>
+
+  <!-- Slanted Cyber Stripes in Pink & Purple -->
+  <path d="M 640 0 L 720 0 L 580 260 L 500 260 Z" fill="#A855F7" opacity="0.12"/>
+  <path d="M 740 0 L 820 0 L 680 260 L 600 260 Z" fill="#FF007F" opacity="0.08"/>
+  <path d="M 840 0 L 900 0 L 780 260 L 720 260 Z" fill="#C084FC" opacity="0.06"/>
+
+  <!-- PURPLE CODE STREAMS (Matrix Cyber glitch columns) -->
+  <g font-family="'JetBrains Mono', 'Courier New', monospace" font-size="10.5" font-weight="700">
+    <!-- Stream 1 (Left) -->
+    <g fill="url(#purpleCodeGrad)">
+      <text x="35" y="60">0x7F</text>
+      <text x="35" y="78">1011</text>
+      <text x="35" y="96">MOV</text>
+      <text x="35" y="114">R_01</text>
+      <text x="35" y="132">0x9A</text>
+      <text x="35" y="150">JMP</text>
+      <text x="35" y="168">0100</text>
+      <text x="35" y="186">SYNC</text>
+      <text x="35" y="204" fill="#E9D5FF" filter="url(#purpleGlow)">0xFF</text>
+    </g>
+
+    <!-- Stream 2 (Mid-Left) -->
+    <g fill="url(#purpleCodeGrad)" opacity="0.75">
+      <text x="75" y="52">fn()</text>
+      <text x="75" y="70">&amp;ptr</text>
+      <text x="75" y="88">1101</text>
+      <text x="75" y="106">0xCC</text>
+      <text x="75" y="124">void</text>
+      <text x="75" y="142">0010</text>
+      <text x="75" y="160">GOLG</text>
+      <text x="75" y="178">0x42</text>
+      <text x="75" y="196" fill="#C084FC">BYTE</text>
+    </g>
+
+    <!-- Stream 3 (Inner Left) -->
+    <g fill="url(#purpleCodeGrad)" opacity="0.45">
+      <text x="115" y="65">1010</text>
+      <text x="115" y="83">0xEF</text>
+      <text x="115" y="101">PY39</text>
+      <text x="115" y="119">0111</text>
+      <text x="115" y="137">JSON</text>
+      <text x="115" y="155">1110</text>
+      <text x="115" y="173">0x88</text>
+      <text x="115" y="191">DONE</text>
+    </g>
+
+    <!-- Stream 4 (Inner Right) -->
+    <g fill="url(#purpleCodeGrad)" opacity="0.45">
+      <text x="770" y="65">PUSH</text>
+      <text x="770" y="83">0x3A</text>
+      <text x="770" y="101">1100</text>
+      <text x="770" y="119">TAIL</text>
+      <text x="770" y="137">0011</text>
+      <text x="770" y="155">WIND</text>
+      <text x="770" y="173">0xDE</text>
+      <text x="770" y="191">0101</text>
+    </g>
+
+    <!-- Stream 5 (Mid-Right) -->
+    <g fill="url(#purpleCodeGrad)" opacity="0.75">
+      <text x="810" y="52">0xAD</text>
+      <text x="810" y="70">JS_V</text>
+      <text x="810" y="88">0110</text>
+      <text x="810" y="106">NODE</text>
+      <text x="810" y="124">1001</text>
+      <text x="810" y="142">0x14</text>
+      <text x="810" y="160">CALL</text>
+      <text x="810" y="178">RETN</text>
+      <text x="810" y="196" fill="#C084FC">0x00</text>
+    </g>
+
+    <!-- Stream 6 (Far Right) -->
+    <g fill="url(#purpleCodeGrad)">
+      <text x="850" y="60">KE_E</text>
+      <text x="850" y="78">0011</text>
+      <text x="850" y="96">ALU</text>
+      <text x="850" y="114">0x34</text>
+      <text x="850" y="132">1111</text>
+      <text x="850" y="150">AFRI</text>
+      <text x="850" y="168">0xEE</text>
+      <text x="850" y="186">VIBE</text>
+      <text x="850" y="204" fill="#E9D5FF" filter="url(#purpleGlow)">0x01</text>
+    </g>
+  </g>
+
+  <!-- Glowing Neon Frame with dual Pink/Purple tones -->
+  <rect x="15" y="15" width="870" height="230" rx="8" fill="none" stroke="#FF007F" stroke-width="1.5" stroke-dasharray="14 6" opacity="0.6"/>
+  <rect x="18" y="18" width="864" height="224" rx="6" fill="none" stroke="#A855F7" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- Corner Tech L-Brackets -->
+  <path d="M 15 40 L 15 15 L 40 15" stroke="#FF007F" stroke-width="3" fill="none"/>
+  <path d="M 885 40 L 885 15 L 860 15" stroke="#C084FC" stroke-width="3" fill="none"/>
+  <path d="M 15 220 L 15 245 L 40 245" stroke="#C084FC" stroke-width="3" fill="none"/>
+  <path d="M 885 220 L 885 245 L 860 245" stroke="#FF007F" stroke-width="3" fill="none"/>
+
+  <!-- Top System Header -->
+  <text x="45" y="40" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" fill="#C084FC" letter-spacing="2">
+    [ SYSTEM // NEON-SLANT-GLITCH // KISUMU NODE: 042 ]
   </text>
-  <text x="600" y="140" text-anchor="middle" font-family="monospace" font-size="22" fill="#fff" fill-opacity="0.9">Frontend Dev &amp; Designer | Kisumu, Kenya</text>
+  <circle cx="830" cy="36" r="3.5" fill="#C084FC">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="840" y="40" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" fill="#C084FC" letter-spacing="1">
+    ONLINE
+  </text>
+
+  <!-- Big Slanted ASCII Name with Glitch Shadows & Neon Glow -->
+  <!-- Cyan/Purple Glitch Shadow -->
+  <text x="447" y="123" text-anchor="middle" font-family="'Courier New', monospace" font-weight="900" font-size="54" fill="#A855F7" opacity="0.6" letter-spacing="16">
+    MAYAN
+  </text>
+  <!-- Pink Glitch Shadow -->
+  <text x="453" y="127" text-anchor="middle" font-family="'Courier New', monospace" font-weight="900" font-size="54" fill="#FF007F" opacity="0.7" letter-spacing="16">
+    MAYAN
+  </text>
+  <!-- Main Glowing Foreground -->
+  <g filter="url(#neonGlow)">
+    <text x="450" y="125" text-anchor="middle" font-family="'Courier New', monospace" font-weight="900" font-size="54" fill="url(#neonPinkGrad)" letter-spacing="16">
+      MAYAN
+    </text>
+  </g>
+  <text x="450" y="125" text-anchor="middle" font-family="'Courier New', monospace" font-weight="900" font-size="54" fill="#FFFFFF" opacity="0.95" letter-spacing="16">
+    MAYAN
+  </text>
+
+  <!-- Cyber Subtitle & Tags -->
+  <text x="450" y="165" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="17" fill="#F1F5F9" letter-spacing="4">
+    FRONTEND DEV & DESIGNER
+  </text>
+
+  <text x="450" y="195" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12.5" fill="#E9D5FF" letter-spacing="3">
+    ◄◄ KISUMU, KENYA • 0°05'S 34°45'E ►►
+  </text>
+
+  <!-- Bottom Terminal Bar with Audio Deck Retro Controls -->
+  <line x1="45" y1="215" x2="855" y2="215" stroke="#A855F7" stroke-width="1" opacity="0.4"/>
+  <text x="50" y="233" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#C084FC" letter-spacing="1">
+    STACK: JS // GOLANG // PYTHON // TAILWIND
+  </text>
+  <text x="450" y="233" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#FF77B6" letter-spacing="2">
+    ◄◄ REW ■ STOP ►► FFWD ● REC [SPEED: 100%]
+  </text>
+  <text x="850" y="233" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#C084FC">
+    EAST AFRICA ⚡
+  </text>
 </svg>
