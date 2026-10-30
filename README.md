@@ -1,21 +1,70 @@
+Markdown
 <div align="center">
 
-<img src="banner.svg" width="100%" alt="banner"/>
-
-<a href="https://github.com/Mayan-Okul">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=FF4A8E&center=true&vCenter=true&width=640&lines=Hey+fam!+I'm+Mayan+%F0%9F%8C%B8;Zone01+Kisumu+apprentice;I+build+neon+interfaces+%F0%9F%91%BE;Real+software+for+real+local+impact" alt="typing"/>
-</a>
-
-</div>
-
-## 🌸 About
-
+```text
+       0
+      00
+     000
+    01!
+   1000 1
+   1000 1
+   1000 1
+   , 10!0 1
+   0 1000 11
+        11000!!11
+    10) 10!0 1
+   !0 1000 111
+         !1000!!119
+     110) 10 !0 1000
+1 01 !0 1001 01 ! 10 1)1 110 110) 10 !0 1000 1110 10!0 10
+ 1 10 1)1 110 110) 10 !0 1000 1110 10!0 10-1000!111!              0
+  !!0110! !  000!0011 01 !0 1001 01 ! 1) 1)1 111              000
+   )1 110 110) 10 !0 1000 1110 10!0 10-1000!               10 !1
+    )1 110                1110 10!0 10-1000'               10 11(
+     110 110) 10 !0 1000 1110 10!0 10-1000'   '!110) 10 !0 1000 1110 10!0 10
+     '1!0 10-0 110) 10!0                   11000!!19,      1110 10!0
+      ) 10 !0 1000 1110 10!0 10-1000                    'h) 10 !0 1000 1110 10!
+        110 10!0 1000 1110 10!0 1                  -0110) 10!0
+        000!0011 01 !0 1001 01             0        '000 1110 10!0
+        0) 10 !0 1000 1110 10!0           00         !0 1000 1110
+        10) 10 !0 1000 1110 10!0          000        0011 01 !0 100
+             000 1110 10!0              10 !0       0 !0 1000 1110
+        10-0 110) 10!0        11000!!    10          0 !0 1000 1110
+      10 !0 1000 1110 10!0 10-100       001          1110 1
+      110) 10!0 1000 1110 10!0 10       000         3  ,  '
+     !) 000!0011 0    !0 1001 01 ! !    10
+      110) 10 !0         110 10!0 10    11
+      0 110) 10             0 10!0 10-  1000!!11
+      0 110) 1              10!0 10-   01 01    0
+     .0 10-                             0-3    00L
+    !0110                                 f   1000!!119
+    10                                   10 !1  000
+    1                        1 01 !0 1001 01 ! 10 1)1  30 !0 1000 1110 10!0 10
+                              1 101 10 1)1 110 110) 10  1r 0 1)1 110 110) 10111!
+                               '!!             '!            1 111
+                                 )1           '!!110) 10 !0 1r 1000!1
+                                  2%\,          10!0   1000'
+                                   '10          10!   ,-100
+                                    -011              11000!!19
+                                     100'       0!0   1000
+                                      00)       110  0!0 1
+                                       10)      110  101
+                                            0 110 10  10
+                                            10 0 1r  00!!
+                                            10  0    100
+                                            1    1   10
+                                            ,0110 10  1
+                                             10  110  10
+                                             0   !0   10-
+                                            0 110) 1  !0!0 0-
+                                            !0 10-
+                                            !0110     01 01
+                                            10        0-3
+                                            3          ,0
+🌸 About
 Frontend dev and designer, still finding my footing, building software with real impact for Kenyan and East African communities.
 
-<details>
-<summary><b>👾 Click to open my status</b></summary>
-
-```js
+JavaScript
 const mayan = new CyberEntity({
   role: "Frontend Developer & Designer",
   school: ["Zone01 Kisumu", "KCA University"],
@@ -24,61 +73,13 @@ const mayan = new CyberEntity({
 });
 
 mayan.compile();
-```
+Mali: AI-powered business OS for African SMEs (live)
 
-</details>
+Tembo: water quality reporting platform for Lake Victoria
 
-<details>
-<summary><b>🚀 Click to see what I'm building</b></summary>
+Forum: Go + SQLite web forum (team project)
 
-- **Mali**: AI-powered business OS for African SMEs ([live](https://mali-mnyapola.netlify.app))
-- **Tembo**: water quality reporting platform for Lake Victoria
-- **Forum**: Go + SQLite web forum (team project)
-
-</details>
-
-## 💻 Tech Stack
-
-<div align="center">
-
-![React](https://img.shields.io/badge/React-ff4a8e?style=for-the-badge&logo=react&logoColor=white&labelColor=16111a)
-![Vite](https://img.shields.io/badge/Vite-a855f7?style=for-the-badge&logo=vite&logoColor=white&labelColor=16111a)
-![JavaScript](https://img.shields.io/badge/JavaScript-ff7eb6?style=for-the-badge&logo=javascript&logoColor=white&labelColor=16111a)
-![Go](https://img.shields.io/badge/Go-c084fc?style=for-the-badge&logo=go&logoColor=white&labelColor=16111a)
-![SQLite](https://img.shields.io/badge/SQLite-ff4a8e?style=for-the-badge&logo=sqlite&logoColor=white&labelColor=16111a)
-![HTML5](https://img.shields.io/badge/HTML5-a855f7?style=for-the-badge&logo=html5&logoColor=white&labelColor=16111a)
-![CSS3](https://img.shields.io/badge/CSS3-ff7eb6?style=for-the-badge&logo=css3&logoColor=white&labelColor=16111a)
-
-</div>
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Mayan-Okul&show_icons=true&hide_border=true&bg_color=16111a&title_color=ff4a8e&icon_color=a855f7&text_color=eadfec" alt="stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mayan-Okul&layout=compact&hide_border=true&bg_color=16111a&title_color=ff4a8e&text_color=eadfec" alt="languages"/>
-
-<img src="https://streak-stats.demolab.com?user=Mayan-Okul&hide_border=true&background=16111a&ring=ff4a8e&fire=a855f7&currStreakLabel=ff4a8e&sideLabels=c084fc&currStreakNum=eadfec&sideNums=eadfec&dates=a99bb5" alt="streak"/>
-
-</div>
-
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mayan-Okul/Mayan-Okul/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mayan-Okul/Mayan-Okul/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Mayan-Okul/Mayan-Okul/output/pacman-contribution-graph-dark.svg">
-</picture>
-
-## ✍️ Dev Quote
-
-> *"The function of good software is to make the complex appear to be simple."*
-
-## 🌐 Connect
-
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-ff4a8e?style=for-the-badge&logo=netlify&logoColor=white&labelColor=16111a)](https://mali-mnyapola.netlify.app)
-
-<img src="footer.svg" width="100%" alt="footer"/>
-
-</div>
+💻 Tech Stack
+📊 GitHub Stats
+✍️ Dev Quote
+"The function of good software is to make the complex appear to be simple."
