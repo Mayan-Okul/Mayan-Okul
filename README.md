@@ -74,7 +74,7 @@ mayan.compile();
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-ff4a8e?style=for-the-badge&logo=netlify&logoColor=white&labelColor=16111a)](https://mali-mnyapola.netlify.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-ff4a8e?style=for-the-badge&logo=netlify&logoColor=white&labelColor=16111a)](https://okulsportfolio.netlify.app/)
 
 <img src="footer.svg" width="100%" alt="footer"/>
 
