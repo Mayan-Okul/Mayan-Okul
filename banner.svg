@@ -33,7 +33,7 @@
   <rect width="900" height="260" rx="12" fill="url(#cyberBg)"/>
   <rect width="900" height="260" rx="12" fill="url(#dotGrid)"/>
 
-  <!-- Slanted Cyber Stripes in Pink &amp; Purple -->
+  <!-- Slanted Cyber Stripes in Pink & Purple -->
   <path d="M 640 0 L 720 0 L 580 260 L 500 260 Z" fill="#A855F7" opacity="0.12"/>
   <path d="M 740 0 L 820 0 L 680 260 L 600 260 Z" fill="#FF007F" opacity="0.08"/>
   <path d="M 840 0 L 900 0 L 780 260 L 720 260 Z" fill="#C084FC" opacity="0.06"/>
@@ -56,7 +56,7 @@
     <!-- Stream 2 (Mid-Left) -->
     <g fill="url(#purpleCodeGrad)" opacity="0.75">
       <text x="75" y="52">fn()</text>
-      <text x="75" y="70">*ptr</text>
+      <text x="75" y="70">&amp;ptr</text>
       <text x="75" y="88">1101</text>
       <text x="75" y="106">0xCC</text>
       <text x="75" y="124">void</text>
@@ -138,13 +138,16 @@
     ONLINE
   </text>
 
-  <!-- Big Slanted ASCII Name with Glitch Shadows &amp; Neon Glow -->
+  <!-- Big Slanted ASCII Name with Glitch Shadows & Neon Glow -->
+  <!-- Cyan/Purple Glitch Shadow -->
   <text x="447" y="123" text-anchor="middle" font-family="'Courier New', monospace" font-weight="900" font-size="54" fill="#A855F7" opacity="0.6" letter-spacing="16">
     MAYAN
   </text>
+  <!-- Pink Glitch Shadow -->
   <text x="453" y="127" text-anchor="middle" font-family="'Courier New', monospace" font-weight="900" font-size="54" fill="#FF007F" opacity="0.7" letter-spacing="16">
     MAYAN
   </text>
+  <!-- Main Glowing Foreground -->
   <g filter="url(#neonGlow)">
     <text x="450" y="125" text-anchor="middle" font-family="'Courier New', monospace" font-weight="900" font-size="54" fill="url(#neonPinkGrad)" letter-spacing="16">
       MAYAN
@@ -154,7 +157,7 @@
     MAYAN
   </text>
 
-  <!-- Cyber Subtitle &amp; Tags -->
+  <!-- Cyber Subtitle & Tags -->
   <text x="450" y="165" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="17" fill="#F1F5F9" letter-spacing="4">
     FRONTEND DEV &amp; DESIGNER
   </text>
@@ -165,13 +168,13 @@
 
   <!-- Bottom Terminal Bar with Audio Deck Retro Controls -->
   <line x1="45" y1="215" x2="855" y2="215" stroke="#A855F7" stroke-width="1" opacity="0.4"/>
-  <text x="50" y="233" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#C084FC" letter-spacing="1">
-    STACK: JS // GOLANG // PYTHON // TAILWIND
+  <text x="45" y="233" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#C084FC" letter-spacing="0.5">
+    STACK: JS • GO • PY • TAILWIND
   </text>
-  <text x="450" y="233" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#FF77B6" letter-spacing="2">
-    ◄◄ REW ■ STOP ►► FFWD ● REC [SPEED: 100%]
+  <text x="450" y="233" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#FF77B6" letter-spacing="1.5">
+    ◄◄ REW ■ STOP ►► FFWD ● REC
   </text>
-  <text x="850" y="233" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#C084FC">
+  <text x="855" y="233" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#C084FC" letter-spacing="1">
     EAST AFRICA ⚡
   </text>
 </svg>
